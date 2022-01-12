@@ -5,6 +5,7 @@ import moment from 'moment';
 import axios from 'axios'
 import http from 'http'
 import _ from 'lodash'
+import * as fs from 'fs';
 
 http
 .createServer((req, res) => {
